@@ -1,0 +1,50 @@
+1,Bulbasaur,Planta,0.7,6.9,"Espesura;Clorofila",Ivysaur
+2,Ivysaur,Planta,1.0,13.0,"Espesura;Clorofila",Venusaur
+3,Venusaur,Planta,2.0,100.0,"Espesura;Clorofila",sinValor
+4,Charmander,Fuego,0.6,8.5,"Mar Llamas;Poder Solar",Charmeleon
+5,Charmeleon,Fuego,1.1,19.0,"Mar Llamas;Poder Solar",Charizard
+6,Charizard,"Fuego/Volador",1.7,90.5,"Mar Llamas;Poder Solar",sinValor
+7,Squirtle,Agua,0.5,9.0,"Torrente;Cura Lluvia",Wartortle
+8,Wartortle,Agua,1.0,22.5,"Torrente;Cura Lluvia",Blastoise
+9,Blastoise,Agua,1.6,85.5,"Torrente;Cura Lluvia",sinValor
+10,Pikachu,Eléctrico,0.4,6.0,"Electricidad Estática;Pararrayos",Raichu
+11,Raichu,Eléctrico,0.8,30.0,"Electricidad Estática;Pararrayos",sinValor
+12,Sandshrew,Normal,0.6,12.0,"Funda;Arena",Sandslash
+13,Sandslash,Normal,1.0,29.5,"Funda;Arena",sinValor
+14,Nidoran♀,Veneno,0.4,7.0,"Punto Tóxico;Rivalidad",Nidorina
+15,Nidorina,Veneno,0.8,20.0,"Punto Tóxico;Rivalidad",Nidoqueen
+16,Nidoqueen,Veneno/Tierra,1.3,60.0,"Punto Tóxico;Rivalidad",sinValor
+17,Nidoran♂,Veneno,0.5,9.0,"Punto Tóxico;Rivalidad",Nidorino
+18,Nidorino,Veneno,0.9,19.5,"Punto Tóxico;Rivalidad",Nidoking
+19,Nidoking,Veneno/Tierra,1.4,62.0,"Punto Tóxico;Rivalidad",sinValor
+20,Clefairy,Hada,0.6,7.5,"Piel Fina;Amuleto",Clefable
+21,Clefable,Hada,1.3,40.0,"Piel Fina;Amuleto",sinValor
+22,Vulpix,Fuego,0.6,9.9,"Absorbe Fuego;Mar Llamas",Ninetales
+23,Ninetales,Fuego,1.1,19.9,"Absorbe Fuego;Mar Llamas",sinValor
+24,Jigglypuff,Normal/Hada,0.5,5.5,"Piel Fina;Canto",Wigglytuff
+25,Wigglytuff,Normal/Hada,1.0,12.0,"Piel Fina;Canto",sinValor
+26,Zubat,Veneno/Volador,0.8,7.5,"Insonorizar;Cuerpo Maldito",Golbat
+27,Golbat,Veneno/Volador,1.6,55.0,"Insonorizar;Cuerpo Maldito",Crobat
+28,Crobat,Veneno/Volador,1.8,75.0,"Insonorizar;Cuerpo Maldito",sinValor
+29,Oddish,Planta/Veneno,0.5,5.4,"Clorofila;Espesura",Gloom
+30,Gloom,Planta/Veneno,0.8,8.6,"Clorofila;Espesura",Vileplume
+31,Vileplume,Planta/Veneno,1.2,18.6,"Clorofila;Espesura",sinValor
+32,Paras,Bicho/Planta,0.3,5.4,"Efecto Espora;Técnico",Parasect
+33,Parasect,Bicho/Planta,1.0,29.5,"Efecto Espora;Técnico",sinValor
+34,Venonat,Bicho/Veneno,1.0,30.0,"Cuerpo Maldito;Ojo Compuesto",Venomoth
+35,Venomoth,Bicho/Veneno,1.5,12.5,"Cuerpo Maldito;Ojo Compuesto",sinValor
+36,Diglett,Tierra,0.2,0.8,"Excavar;Arena",Dugtrio
+37,Dugtrio,Tierra,0.7,33.3,"Excavar;Arena",sinValor
+38,Meowth,Normal,0.4,4.2,"Recogida;Cobrizo",Persian
+39,Persian,Normal,1.0,32.0,"Recogida;Cobrizo",sinValor
+40,Psyduck,Agua,0.8,19.6,"Nado Rápido;Humedad",Golduck
+41,Golduck,Agua,1.7,76.6,"Nado Rápido;Humedad",sinValor
+42,Mankey,Lucha,0.5,28.0,"Furia;Espíritu Vital",Primeape
+43,Primeape,Lucha,1.0,32.0,"Furia;Espíritu Vital",sinValor
+44,Growlithe,Fuego,0.7,19.0,"Intimidación;Mar Llamas",Arcanine
+45,Arcanine,Fuego,1.9,155.0,"Intimidación;Mar Llamas",sinValor
+46,Poliwag,Agua,0.6,12.4,"Nado Rápido;Absorbe Agua",Poliwhirl
+47,Poliwhirl,Agua,1.0,20.0,"Nado Rápido;Absorbe Agua",Poliwrath
+48,Poliwrath,Agua/Lucha,1.3,54.0,"Nado Rápido;Absorbe Agua",sinValor
+49,Abra,Psíquico,0.9,19.5,"Sincronía;Levitación",Kadabra
+50,Kadabra,Psíquico,1.3,56.5,"Sincronía;Levitación",Alakazam

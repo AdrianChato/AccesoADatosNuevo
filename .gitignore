@@ -1,0 +1,19 @@
+.metadata/
+
+# Carpetas y archivos generados por Maven
+target/
+
+# Archivos de log
+*.log
+
+# Archivos de IDE
+*.iml
+.idea/
+*.project
+*.classpath
+.settings/
+
+# Archivos compilados
+*.class
+".metadata/" 
+".metadata/" 
