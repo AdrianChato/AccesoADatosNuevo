@@ -23,5 +23,11 @@ public class EstudianteService {
 	   public List<Estudiante> read() {
 	       return repo.read();
 	   }
+	   public EstudianteRepositorio getRepo() {
+		   return repo;
+	   }
+	   
 	//TODO Agregar resto de operaciones del CRUD
+	   
+	   
 	}
