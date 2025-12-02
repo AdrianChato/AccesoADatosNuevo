@@ -1,0 +1,334 @@
+use('MotoLife')
+db.Motos.drop()
+db.Motos.createIndex(
+  { num_bas: 1 },
+  { unique: true }
+);
+db.Motos.insertMany([
+  {
+    "num_bas": "BAS000000000001",
+    "cc": 599.5,
+    "cv": 85,
+    "tipo_motor": "Gasolina",
+    "modelo_moto": "Yamaha MT-07",
+    "enVenta": true,
+    "duenos": [
+      {"nombre": "Carlos Pérez", "dni": "12345678A", "direccion": "Calle Luna 45, Madrid", "tlf": "612345678"}
+    ],
+    "especificaciones": {
+      "anno_matriculacion": 2019,
+      "duenos_totales": 1,
+      "revisiones": true,
+      "modificaciones": false
+    }
+  },
+  {
+    "num_bas": "BAS000000000002",
+    "cc": 749.3,
+    "cv": 110,
+    "tipo_motor": "Gasolina",
+    "modelo_moto": "Honda CB750",
+    "enVenta": false,
+    "duenos": [
+      {"nombre": "Lucía Serrano", "dni": "11223344B", "direccion": "Av. Europa 11, Sevilla", "tlf": "623445667"},
+      {"nombre": "Miguel Ruiz", "dni": "99887766C", "direccion": "Calle Jardin 21, Málaga", "tlf": "655778899"}
+    ],
+    "especificaciones": {
+      "anno_matriculacion": 2017,
+      "duenos_totales": 2,
+      "revisiones": true,
+      "modificaciones": true
+    }
+  },
+  {
+    "num_bas": "BAS000000000003",
+    "cc": 999.9,
+    "cv": 150,
+    "tipo_motor": "Gasolina",
+    "modelo_moto": "Kawasaki Z1000",
+    "enVenta": true,
+    "duenos": [],
+    "especificaciones": {
+      "anno_matriculacion": 2021,
+      "duenos_totales": 0,
+      "revisiones": false,
+      "modificaciones": false
+    }
+  },
+  {
+    "num_bas": "BAS000000000004",
+    "cc": 450.7,
+    "cv": 52,
+    "tipo_motor": "Gasolina",
+    "modelo_moto": "Suzuki DR-Z400",
+    "enVenta": false,
+    "duenos": [
+      {"nombre": "Javier Ortega", "dni": "44556677D", "direccion": "Calle Norte 9, Zaragoza", "tlf": "644112233"}
+    ],
+    "especificaciones": {
+      "anno_matriculacion": 2016,
+      "duenos_totales": 1,
+      "revisiones": true,
+      "modificaciones": true
+    }
+  },
+  {
+    "num_bas": "BAS000000000005",
+    "cc": 124.4,
+    "cv": 15,
+    "tipo_motor": "Gasolina",
+    "modelo_moto": "KTM Duke 125",
+    "enVenta": true,
+    "duenos": [],
+    "especificaciones": {
+      "anno_matriculacion": 2023,
+      "duenos_totales": 0,
+      "revisiones": false,
+      "modificaciones": false
+    }
+  },
+  {
+    "num_bas": "BAS000000000006",
+    "cc": 850.2,
+    "cv": 95,
+    "tipo_motor": "Gasolina",
+    "modelo_moto": "BMW F850GS",
+    "enVenta": false,
+    "duenos": [
+      {"nombre": "Ana Vidal", "dni": "22334455E", "direccion": "Calle Sur 17, Bilbao", "tlf": "611229944"}
+    ],
+    "especificaciones": {
+      "anno_matriculacion": 2018,
+      "duenos_totales": 1,
+      "revisiones": true,
+      "modificaciones": false
+    }
+  },
+  {
+    "num_bas": "BAS000000000007",
+    "cc": 320.8,
+    "cv": 42,
+    "tipo_motor": "Electrica",
+    "modelo_moto": "Yamaha R3",
+    "enVenta": true,
+    "duenos": [
+      {"nombre": "David Esteban", "dni": "55667788F", "direccion": "Calle Verde 3, Murcia", "tlf": "677445522"}
+    ],
+    "especificaciones": {
+      "anno_matriculacion": 2020,
+      "duenos_totales": 1,
+      "revisiones": false,
+      "modificaciones": false
+    }
+  },
+  {
+    "num_bas": "BAS000000000008",
+    "cc": 1198.6,
+    "cv": 180,
+    "tipo_motor": "Gasolina",
+    "modelo_moto": "Ducati Panigale 1199",
+    "enVenta": false,
+    "duenos": [
+      {"nombre": "Pablo Gutiérrez", "dni": "66778899G", "direccion": "Calle Sol 8, Barcelona", "tlf": "699887766"}
+    ],
+    "especificaciones": {
+      "anno_matriculacion": 2015,
+      "duenos_totales": 1,
+      "revisiones": true,
+      "modificaciones": true
+    }
+  },
+  {
+    "num_bas": "BAS000000000009",
+    "cc": 649.4,
+    "cv": 68,
+    "tipo_motor": "Gasolina",
+    "modelo_moto": "Kawasaki Versys 650",
+    "enVenta": true,
+    "duenos": [],
+    "especificaciones": {
+      "anno_matriculacion": 2022,
+      "duenos_totales": 0,
+      "revisiones": false,
+      "modificaciones": false
+    }
+  },
+  {
+    "num_bas": "BAS000000000010",
+    "cc": 399.1,
+    "cv": 45,
+    "tipo_motor": "Gasolina",
+    "modelo_moto": "Honda CBR400R",
+    "enVenta": false,
+    "duenos": [
+      {"nombre": "Eva Delgado", "dni": "77889900H", "direccion": "Av. Mar 10, Alicante", "tlf": "644558877"}
+    ],
+    "especificaciones": {
+      "anno_matriculacion": 2019,
+      "duenos_totales": 1,
+      "revisiones": true,
+      "modificaciones": false
+    }
+  },
+  {
+    "num_bas": "BAS000000000011",
+    "cc": 278.9,
+    "cv": 26,
+    "tipo_motor": "Gasolina",
+    "modelo_moto": "Honda Forza 300",
+    "enVenta": true,
+    "duenos": [],
+    "especificaciones": {
+      "anno_matriculacion": 2023,
+      "duenos_totales": 0,
+      "revisiones": false,
+      "modificaciones": false
+    }
+  },
+  {
+    "num_bas": "BAS000000000012",
+    "cc": 500.5,
+    "cv": 47,
+    "tipo_motor": "Gasolina",
+    "modelo_moto": "Kawasaki Ninja 500",
+    "enVenta": false,
+    "duenos": [
+      {"nombre": "Roberto López", "dni": "11225566I", "direccion": "Calle Bosque 14, León", "tlf": "611778899"}
+    ],
+    "especificaciones": {
+      "anno_matriculacion": 2018,
+      "duenos_totales": 1,
+      "revisiones": true,
+      "modificaciones": true
+    }
+  },
+  {
+    "num_bas": "BAS000000000013",
+    "cc": 300.3,
+    "cv": 34,
+    "tipo_motor": "Gasolina",
+    "modelo_moto": "KTM RC 390",
+    "enVenta": true,
+    "duenos": [],
+    "especificaciones": {
+      "anno_matriculacion": 2021,
+      "duenos_totales": 0,
+      "revisiones": false,
+      "modificaciones": false
+    }
+  },
+  {
+    "num_bas": "BAS000000000014",
+    "cc": 650.7,
+    "cv": 70,
+    "tipo_motor": "Electrica",
+    "modelo_moto": "Royal Enfield Interceptor 650",
+    "enVenta": false,
+    "duenos": [
+      {"nombre": "Antonio Ramos", "dni": "33445566J", "direccion": "Calle Lago 6, Córdoba", "tlf": "622334455"}
+    ],
+    "especificaciones": {
+      "anno_matriculacion": 2018,
+      "duenos_totales": 1,
+      "revisiones": true,
+      "modificaciones": false
+    }
+  },
+  {
+    "num_bas": "BAS000000000015",
+    "cc": 783.2,
+    "cv": 54,
+    "tipo_motor": "Electrica",
+    "modelo_moto": "BMW R80",
+    "enVenta": false,
+    "duenos": [
+      {"nombre": "Santiago Molina", "dni": "99334455K", "direccion": "Calle Alta 12, Santander", "tlf": "655112233"}
+    ],
+    "especificaciones": {
+      "anno_matriculacion": 1989,
+      "duenos_totales": 1,
+      "revisiones": true,
+      "modificaciones": true
+    }
+  },
+  {
+    "num_bas": "BAS000000000016",
+    "cc": 223.6,
+    "cv": 18,
+    "tipo_motor": "Gasolina",
+    "modelo_moto": "Honda CBF 250",
+    "enVenta": true,
+    "duenos": [],
+    "especificaciones": {
+      "anno_matriculacion": 2020,
+      "duenos_totales": 0,
+      "revisiones": false,
+      "modificaciones": false
+    }
+  },
+  {
+    "num_bas": "BAS000000000017",
+    "cc": 1099.4,
+    "cv": 160,
+    "tipo_motor": "Electrica",
+    "modelo_moto": "Aprilia Tuono 1100",
+    "enVenta": false,
+    "duenos": [
+      {"nombre": "Mario Caballero", "dni": "22119933L", "direccion": "Calle Azul 7, Valencia", "tlf": "677889900"}
+    ],
+    "especificaciones": {
+      "anno_matriculacion": 2016,
+      "duenos_totales": 1,
+      "revisiones": true,
+      "modificaciones": true
+    }
+  },
+  {
+    "num_bas": "BAS000000000018",
+    "cc": 451.8,
+    "cv": 50,
+    "tipo_motor": "Gasolina",
+    "modelo_moto": "Suzuki GSX450",
+    "enVenta": true,
+    "duenos": [],
+    "especificaciones": {
+      "anno_matriculacion": 2022,
+      "duenos_totales": 0,
+      "revisiones": false,
+      "modificaciones": false
+    }
+  },
+  {
+    "num_bas": "BAS000000000019",
+    "cc": 159.9,
+    "cv": 17,
+    "tipo_motor": "Gasolina",
+    "modelo_moto": "Yamaha XTZ 150",
+    "enVenta": true,
+    "duenos": [],
+    "especificaciones": {
+      "anno_matriculacion": 2023,
+      "duenos_totales": 0,
+      "revisiones": false,
+      "modificaciones": false
+    }
+  },
+  {
+    "num_bas": "BAS000000000020",
+    "cc": 1299.7,
+    "cv": 200,
+    "tipo_motor": "Gasolina",
+    "modelo_moto": "KTM 1290 Super Duke R",
+    "enVenta": false,
+    "duenos": [
+      {"nombre": "Jordi Esteve", "dni": "77884422M", "direccion": "Av. Libertad 14, Girona", "tlf": "655441122"}
+    ],
+    "especificaciones": {
+      "anno_matriculacion": 2020,
+      "duenos_totales": 1,
+      "revisiones": true,
+      "modificaciones": true
+    }
+  }
+]
+)
