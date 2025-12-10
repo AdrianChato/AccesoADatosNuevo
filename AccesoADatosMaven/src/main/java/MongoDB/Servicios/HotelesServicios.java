@@ -77,5 +77,16 @@ public class HotelesServicios {
     public HotelesRepositorio getRepo() {
         return repo;
     }
+    
+    public void pushHabitacion(String idHotel, Habitaciones h) {
+        repo.pushHabitacion(idHotel, h);
+        logger.info("Servicio: habitación añadida a " + idHotel);
+    }
+
+    public void eliminarHabitacionesCaras(String nombreHotel, double precioMinimo) {
+        repo.pullHabitacionesCaras(nombreHotel, precioMinimo);
+        logger.info("Servicio: habitaciones caras eliminadas en " + nombreHotel);
+    }
+
 
 }
