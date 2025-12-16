@@ -9,5 +9,10 @@
     <artifactId>mysql-connector-java</artifactId>
     <version>8.0.29</version>
 	</dependency>
-	</dependencies>
+  <dependency>
+  	<groupId>dam.accesoadatos</groupId>
+  	<artifactId>AccesoADatosMaven</artifactId>
+  	<version>0.0.1-SNAPSHOT</version>
+  </dependency>
+  </dependencies>
 </project>
