@@ -31,7 +31,7 @@ public class RepositorioJugador {
 
     	    ResultSet rs = ps.getGeneratedKeys();
     	    if (rs.next()) {
-    	        jugador.setId(rs.getInt(1)); // 🔑 AQUÍ ESTÁ LA CLAVE
+    	        jugador.setId(rs.getInt(1));
     	    }
 
     	    logger.info("Jugador dado de alta: {}", jugador.getNombre());

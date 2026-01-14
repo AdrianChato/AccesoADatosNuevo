@@ -85,7 +85,7 @@ public class RepositorioPartida {
 
     /**
      * JOIN: lista partidas con el nombre del narrador
-     * ⚠️ CLÁSICO DE EXAMEN
+     *
      */
     public void listarPartidasConNarrador() {
 

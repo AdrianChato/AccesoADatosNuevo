@@ -116,7 +116,7 @@ public class RepositorioJugador {
 
     /**
      * JOIN: muestra jugadores junto al número de partidas narradas
-     * ⚠️ MUY IMPORTANTE PARA EXAMEN
+     * 
      */
     public void mostrarJugadoresConPartidasNarradas() {
 
