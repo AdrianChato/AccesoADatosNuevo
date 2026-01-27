@@ -20,5 +20,7 @@
        <mapping class="Hibernate.Modelos.Sala"/>
        <mapping class="Hibernate.Modelos.Acta"/>
        <mapping class="Hibernate.Modelos.Persona"/>
+       <mapping class="Hibernate.Modelos.Alumno"/>
+       <mapping class="Hibernate.Modelos.Curso"/>
    </session-factory>
 </hibernate-configuration>
