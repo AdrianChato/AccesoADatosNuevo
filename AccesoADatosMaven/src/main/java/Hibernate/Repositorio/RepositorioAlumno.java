@@ -45,7 +45,7 @@ public class RepositorioAlumno extends AbstractDao<Alumno>{
 		return resultado;
 	}
 	
-	public List<Alumno> getAlumnos18CB()
+	/*public List<Alumno> getAlumnos18CB()
 	{
 		Session sesion = HibernateUtil.getFactoriaSession().openSession();
 		HibernateCriteriaBuilder cb = sesion.getCriteriaBuilder();
@@ -55,7 +55,7 @@ public class RepositorioAlumno extends AbstractDao<Alumno>{
 		query.where(cb.greaterThanOrEqualTo(root.get("edad", 18));
 		List<Alumno> alumnos = sesion.createQuery(query).getResultList();
 		return alumnos;
-	}
+	}*/
 	
 	public List<Alumno> getAlumnosNombreCB(String nombre)
 	{
