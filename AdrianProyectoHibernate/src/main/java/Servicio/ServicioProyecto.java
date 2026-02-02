@@ -23,7 +23,7 @@ public class ServicioProyecto {
     private RutaDao rutaDao = new RutaDao();
     private TransferenciaDao transferenciaDao = new TransferenciaDao();
 
-    // --- CRUD BÁSICO (Parte 1.e) ---
+    // CRUD
     public void registrarUsuario(Usuario u) { usuarioDao.create(u); }
     public void actualizarUsuario(Usuario u) { usuarioDao.update(u); }
     public void eliminarUsuario(Usuario u) { usuarioDao.delete(u); }
@@ -44,7 +44,7 @@ public class ServicioProyecto {
     public void registrarTransferencia(Transferencia t) { transferenciaDao.create(t); }
     public void eliminarTransferencia(Transferencia t) { transferenciaDao.delete(t); }
 
-    // --- CONSULTAS HQL Y CRITERIA (Parte 2) ---
+    // Consultas
     public Moto obtenerTop1Moto() { return motoDao.obtenerPrimeraMoto(); }
     public List<String> obtenerMatriculas() { return motoDao.obtenerTodasLasMatriculas(); }
     public List<Object[]> obtenerResumenMotos() { return motoDao.obtenerResumenMotos(); }

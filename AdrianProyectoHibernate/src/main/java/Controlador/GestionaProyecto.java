@@ -30,7 +30,7 @@ public class GestionaProyecto {
 		ServicioProyecto servicio = new ServicioProyecto();
 
 		try {
-            // 1. ALTAS (6 Entidades y sus relaciones)
+            // Damos de alta
             Usuario venedor = new Usuario("Adrian", "Vendedor", "adrian@test.com", "usuario");
             servicio.registrarUsuario(venedor);
 
@@ -59,7 +59,7 @@ public class GestionaProyecto {
             ruta.getMotos().add(moto); // N:M
             servicio.registrarRuta(ruta);
 
-            // CORRECCIÓN: Transferencia con nombres exactos de tu clase
+            
             Transferencia trans = new Transferencia();
             trans.setMoto(moto);
             trans.setPropietarioAnterior(venedor);
@@ -70,22 +70,21 @@ public class GestionaProyecto {
 
             logger.info("Altas de los 6 modelos realizadas.");
 
-            // 2. ACTUALIZACIÓN Y CASCADE
+            // Actualizacion y cascadas
             logger.info("--- Probando Actualización y Cascade ---");
             moto.setModelo("MT-09");
-            servicio.actualizarMoto(moto); // Aquí se explica el CASCADE según tu mapeo
+            servicio.actualizarMoto(moto); 
 
-            // 3. ELIMINACIÓN
+            // Eliminar
             logger.info("--- Probando Bajas ---");
             servicio.eliminarTransferencia(trans);
             logger.info("Transferencia eliminada.");
 
-            // 4. CONSULTAS PARTE 2
+            //Consultas
             logger.info("--- Ejecutando Consultas Parte 2 ---");
             logger.info("Count Eventos: " + servicio.totalEventos());
             logger.info("Media KM: " + servicio.mediaKm());
             
-            // Criteria (Usa el ID de tu objeto usuario)
             servicio.actualizarUsuarioCriteria(venedor.getIdUsuario(), "Adrian Verificado");
             logger.info("Nombre actualizado con Criteria.");
 
