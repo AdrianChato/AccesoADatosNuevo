@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_a9gtkNAtEe-vct8QiEaSmQ">
+  <modelElement href="simulacionHibernate.uml#_jAP08NAtEe-vct8QiEaSmQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kAX1MNAtEe-vct8QiEaSmQ" sourceAnchor="743.0,173.0" targetAnchor="0.0,161.0" target="_kAcGqdAtEe-vct8QiEaSmQ" source="_kCnQ6dAtEe-vct8QiEaSmQ">
+    <modelElement href="simulacionHibernate.uml#_jHu9AdAtEe-vct8QiEaSmQ"/>
+    <stereotypes xmi:id="_kAX1MdAtEe-vct8QiEaSmQ" name="Reference">
+      <modelElement href="simulacionHibernate.uml#_jH1qsNAtEe-vct8QiEaSmQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kAX1MtAtEe-vct8QiEaSmQ" text="">
+      <visualProperties xmi:id="_kIoZUNAtEe-vct8QiEaSmQ" position="-20.0,-24.0" visible="false"/>
+    </nameVisual>
+    <sourceRole xmi:id="_kAX1M9AtEe-vct8QiEaSmQ" aggregationKind="NONE" name="">
+      <modelElement href="simulacionHibernate.uml#_jHu9AtAtEe-vct8QiEaSmQ"/>
+      <visualProperties xmi:id="_kInyQNAtEe-vct8QiEaSmQ" position="15.0,-57.0" visible="false"/>
+      <visibility xmi:id="_kAYcQNAtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kAYcQdAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kAYcQtAtEe-vct8QiEaSmQ" aggregationKind="NONE" name="articulos" navigable="true">
+      <modelElement href="simulacionHibernate.uml#_jG9g8tAtEe-vct8QiEaSmQ"/>
+      <visualProperties xmi:id="_kIpAYNAtEe-vct8QiEaSmQ" position="-96.0,2.0"/>
+      <stereotypes xmi:id="_kAYcQ9AtEe-vct8QiEaSmQ" name="LegacyStyledElement">
+        <modelElement href="simulacionHibernate.uml#_jG-IANAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kAYcRNAtEe-vct8QiEaSmQ" name="Annotations">
+        <modelElement href="simulacionHibernate.uml#_jG-IAdAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kAYcRdAtEe-vct8QiEaSmQ" label="-"/>
+      <cardinality xmi:id="_kAYcRtAtEe-vct8QiEaSmQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kAa4gNAtEe-vct8QiEaSmQ" sourceAnchor="371.0,0.0" targetAnchor="0.0,149.0" target="_kAcGqdAtEe-vct8QiEaSmQ" source="_kCnQ6dAtEe-vct8QiEaSmQ">
+    <modelElement href="simulacionHibernate.uml#_jHAkQtAtEe-vct8QiEaSmQ"/>
+    <visualProperties xmi:id="_s8T1cNAtEe-vct8QiEaSmQ" visible="false"/>
+    <bendpoints xmi:id="_kIjg0NAtEe-vct8QiEaSmQ" sourceY="-205" targetX="-439"/>
+    <nameVisual xmi:id="_kAa4gdAtEe-vct8QiEaSmQ" text="">
+      <visualProperties xmi:id="_kIsqwNAtEe-vct8QiEaSmQ" position="-1.7150204329611825,-77.9346592643978"/>
+    </nameVisual>
+    <sourceRole xmi:id="_kAa4gtAtEe-vct8QiEaSmQ" aggregationKind="NONE" name="revista" navigable="true">
+      <modelElement href="simulacionHibernate.uml#_jGwFkdAtEe-vct8QiEaSmQ"/>
+      <visualProperties xmi:id="_kIqOgNAtEe-vct8QiEaSmQ" position="-20.734252333343534,-70.42059430519532"/>
+      <visibility xmi:id="_kAa4g9AtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kAa4hNAtEe-vct8QiEaSmQ" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kAa4hdAtEe-vct8QiEaSmQ" aggregationKind="NONE" name="">
+      <modelElement href="simulacionHibernate.uml#_jHAkQNAtEe-vct8QiEaSmQ"/>
+      <visualProperties xmi:id="_kIsqwdAtEe-vct8QiEaSmQ" position="-442.2900960911802,-327.15298728324115"/>
+      <visibility xmi:id="_kAa4htAtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kAa4h9AtEe-vct8QiEaSmQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kCnQ4NAtEe-vct8QiEaSmQ" source="_kCnQ6dAtEe-vct8QiEaSmQ">
+    <modelElement href="simulacionHibernate.uml#_jHhhodAtEe-vct8QiEaSmQ"/>
+    <stereotypes xmi:id="_kCnQ4dAtEe-vct8QiEaSmQ" name="Reference">
+      <modelElement href="simulacionHibernate.uml#_jHu9ANAtEe-vct8QiEaSmQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kCnQ4tAtEe-vct8QiEaSmQ" text=""/>
+    <sourceRole xmi:id="_kCnQ49AtEe-vct8QiEaSmQ" aggregationKind="NONE" name="">
+      <modelElement href="simulacionHibernate.uml#_jHhhotAtEe-vct8QiEaSmQ"/>
+      <visibility xmi:id="_kCnQ5NAtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kCnQ5dAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kCnQ5tAtEe-vct8QiEaSmQ" aggregationKind="NONE" name="fecha" navigable="true">
+      <modelElement href="simulacionHibernate.uml#_jG8S09AtEe-vct8QiEaSmQ"/>
+      <visibility xmi:id="_kCnQ59AtEe-vct8QiEaSmQ" label="-"/>
+      <cardinality xmi:id="_kCnQ6NAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZwUnQNBlEe-vct8QiEaSmQ" source="_kAcGqdAtEe-vct8QiEaSmQ">
+    <modelElement href="simulacionHibernate.uml#_Zv_QENBlEe-vct8QiEaSmQ"/>
+    <nameVisual xmi:id="_ZwUnQdBlEe-vct8QiEaSmQ" text=""/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kCnQ6dAtEe-vct8QiEaSmQ" name="Revista" associationsOut="_kAX1MNAtEe-vct8QiEaSmQ _kAa4gNAtEe-vct8QiEaSmQ _kCnQ4NAtEe-vct8QiEaSmQ">
+    <modelElement href="simulacionHibernate.uml#_jBqxQNAtEe-vct8QiEaSmQ"/>
+    <visualProperties xmi:id="_kCnQ6tAtEe-vct8QiEaSmQ" position="-32.0,52.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_kCnQ69AtEe-vct8QiEaSmQ" name="Table">
+      <modelElement href="simulacionHibernate.uml#_jB2-gNAtEe-vct8QiEaSmQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_kCnQ7NAtEe-vct8QiEaSmQ" name="JPA1StyledElement">
+      <modelElement href="simulacionHibernate.uml#_jB4MoNAtEe-vct8QiEaSmQ"/>
+    </stereotypes>
+    <visibility xmi:id="_kCnQ7dAtEe-vct8QiEaSmQ" label="+"/>
+    <attributes xmi:id="_kCnQ7tAtEe-vct8QiEaSmQ" name="idRevista">
+      <modelElement href="simulacionHibernate.uml#_jG52kNAtEe-vct8QiEaSmQ"/>
+      <stereotypes xmi:id="_kCnQ79AtEe-vct8QiEaSmQ" name="PrimaryKey">
+        <modelElement href="simulacionHibernate.uml#_jG6doNAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kCnQ8NAtEe-vct8QiEaSmQ" name="GeneratedValueMapping">
+        <modelElement href="simulacionHibernate.uml#_jG6dodAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kCnQ8dAtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kCnQ8tAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_kCnQ89AtEe-vct8QiEaSmQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kCnQ9NAtEe-vct8QiEaSmQ" name="nombreRevista">
+      <modelElement href="simulacionHibernate.uml#_jG7rwNAtEe-vct8QiEaSmQ"/>
+      <stereotypes xmi:id="_kCnQ9dAtEe-vct8QiEaSmQ" name="StyledElement">
+        <modelElement href="simulacionHibernate.uml#_jG8S0NAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kCnQ9tAtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kCnQ99AtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_kCnQ-NAtEe-vct8QiEaSmQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kCnQ-dAtEe-vct8QiEaSmQ" name="numeroRevista">
+      <modelElement href="simulacionHibernate.uml#_jG8S0dAtEe-vct8QiEaSmQ"/>
+      <stereotypes xmi:id="_kCnQ-tAtEe-vct8QiEaSmQ" name="StyledElement">
+        <modelElement href="simulacionHibernate.uml#_jG8S0tAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kCnQ-9AtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kCnQ_NAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_kCnQ_dAtEe-vct8QiEaSmQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kCnQ_tAtEe-vct8QiEaSmQ" name="fecha">
+      <modelElement href="simulacionHibernate.uml#_jG8S09AtEe-vct8QiEaSmQ"/>
+      <stereotypes xmi:id="_kCnQ_9AtEe-vct8QiEaSmQ" name="LegacyStyledElement">
+        <modelElement href="simulacionHibernate.uml#_jG854NAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kCnRANAtEe-vct8QiEaSmQ" label="-"/>
+      <cardinality xmi:id="_kCnRAdAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_kCnRAtAtEe-vct8QiEaSmQ" name="LocalDate">
+        <modelElement href="simulacionHibernate.uml#_jFkZ0NAtEe-vct8QiEaSmQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kCnRA9AtEe-vct8QiEaSmQ" name="unidadesImpresas">
+      <modelElement href="simulacionHibernate.uml#_jG9g8NAtEe-vct8QiEaSmQ"/>
+      <stereotypes xmi:id="_kCnRBNAtEe-vct8QiEaSmQ" name="StyledElement">
+        <modelElement href="simulacionHibernate.uml#_jG9g8dAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kCnRBdAtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kCnRBtAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_kCnRB9AtEe-vct8QiEaSmQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kCnRCNAtEe-vct8QiEaSmQ" name="articulos">
+      <modelElement href="simulacionHibernate.uml#_jG9g8tAtEe-vct8QiEaSmQ"/>
+      <visibility xmi:id="_kCnRCdAtEe-vct8QiEaSmQ" label="-"/>
+      <cardinality xmi:id="_kCnRCtAtEe-vct8QiEaSmQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_kCnRC9AtEe-vct8QiEaSmQ" name="Articulo">
+        <modelElement href="simulacionHibernate.uml#_jA58QNAtEe-vct8QiEaSmQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_kCnRDNAtEe-vct8QiEaSmQ" name="getArticulos">
+      <modelElement href="simulacionHibernate.uml#_jB5awNAtEe-vct8QiEaSmQ"/>
+      <stereotypes xmi:id="_kCnRDdAtEe-vct8QiEaSmQ" name="StyledElement">
+        <modelElement href="simulacionHibernate.uml#_jB7P8NAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kCn38NAtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kCn38dAtEe-vct8QiEaSmQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_kCn38tAtEe-vct8QiEaSmQ">
+        <modelElement href="simulacionHibernate.uml#_jB6o4NAtEe-vct8QiEaSmQ"/>
+        <type xmi:id="_kCn389AtEe-vct8QiEaSmQ" name="Articulo">
+          <modelElement href="simulacionHibernate.uml#_jA58QNAtEe-vct8QiEaSmQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kCn39NAtEe-vct8QiEaSmQ" name="Revista">
+      <modelElement href="simulacionHibernate.uml#_jB7P8dAtEe-vct8QiEaSmQ"/>
+      <keywords xmi:id="_kCn39dAtEe-vct8QiEaSmQ" keyword="create"/>
+      <stereotypes xmi:id="_kCn39tAtEe-vct8QiEaSmQ" name="StyledElement">
+        <modelElement href="simulacionHibernate.uml#_jB8eENAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kCn399AtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kCn3-NAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kCn3-dAtEe-vct8QiEaSmQ">
+        <modelElement href="simulacionHibernate.uml#_jB73ANAtEe-vct8QiEaSmQ"/>
+        <type xmi:id="_kCn3-tAtEe-vct8QiEaSmQ" name="Revista">
+          <modelElement href="simulacionHibernate.uml#_jBqxQNAtEe-vct8QiEaSmQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kCn3-9AtEe-vct8QiEaSmQ" name="hashCode">
+      <modelElement href="simulacionHibernate.uml#_jCB9oNAtEe-vct8QiEaSmQ"/>
+      <stereotypes xmi:id="_kCn3_NAtEe-vct8QiEaSmQ" name="LegacyStyledElement">
+        <modelElement href="simulacionHibernate.uml#_jCDLwNAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kCn3_dAtEe-vct8QiEaSmQ" name="Annotations">
+        <modelElement href="simulacionHibernate.uml#_jCDLwdAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kCn3_tAtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kCn3_9AtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kCn4ANAtEe-vct8QiEaSmQ">
+        <modelElement href="simulacionHibernate.uml#_jCCksNAtEe-vct8QiEaSmQ"/>
+        <type xmi:id="_kCn4AdAtEe-vct8QiEaSmQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kCn4AtAtEe-vct8QiEaSmQ" name="addArticulo">
+      <modelElement href="simulacionHibernate.uml#_jGDiANAtEe-vct8QiEaSmQ"/>
+      <stereotypes xmi:id="_kCn4A9AtEe-vct8QiEaSmQ" name="StyledElement">
+        <modelElement href="simulacionHibernate.uml#_jGEwINAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kCn4BNAtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kCn4BdAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kCn4BtAtEe-vct8QiEaSmQ" name="a">
+        <modelElement href="simulacionHibernate.uml#_jGDiAdAtEe-vct8QiEaSmQ"/>
+        <cardinality xmi:id="_kCn4B9AtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_kCn4CNAtEe-vct8QiEaSmQ" name="Articulo">
+          <modelElement href="simulacionHibernate.uml#_jA58QNAtEe-vct8QiEaSmQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kCn4CdAtEe-vct8QiEaSmQ" name="Revista">
+      <modelElement href="simulacionHibernate.uml#_jGZgQNAtEe-vct8QiEaSmQ"/>
+      <keywords xmi:id="_kCn4CtAtEe-vct8QiEaSmQ" keyword="create"/>
+      <stereotypes xmi:id="_kCn4C9AtEe-vct8QiEaSmQ" name="StyledElement">
+        <modelElement href="simulacionHibernate.uml#_jGcjk9AtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kCn4DNAtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kCn4DdAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kCn4DtAtEe-vct8QiEaSmQ">
+        <modelElement href="simulacionHibernate.uml#_jGcjktAtEe-vct8QiEaSmQ"/>
+        <type xmi:id="_kCn4D9AtEe-vct8QiEaSmQ" name="Revista">
+          <modelElement href="simulacionHibernate.uml#_jBqxQNAtEe-vct8QiEaSmQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kCn4ENAtEe-vct8QiEaSmQ" name="nombreRevista">
+        <modelElement href="simulacionHibernate.uml#_jGaHUNAtEe-vct8QiEaSmQ"/>
+        <cardinality xmi:id="_kCn4EdAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_kCn4EtAtEe-vct8QiEaSmQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kCn4E9AtEe-vct8QiEaSmQ" name="numeroRevista">
+        <modelElement href="simulacionHibernate.uml#_jGauYNAtEe-vct8QiEaSmQ"/>
+        <cardinality xmi:id="_kCn4FNAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_kCn4FdAtEe-vct8QiEaSmQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kCn4FtAtEe-vct8QiEaSmQ" name="fecha">
+        <modelElement href="simulacionHibernate.uml#_jGb8gNAtEe-vct8QiEaSmQ"/>
+        <cardinality xmi:id="_kCn4F9AtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_kCn4GNAtEe-vct8QiEaSmQ" name="LocalDate">
+          <modelElement href="simulacionHibernate.uml#_jFkZ0NAtEe-vct8QiEaSmQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kCn4GdAtEe-vct8QiEaSmQ" name="unidadesImpresas">
+        <modelElement href="simulacionHibernate.uml#_jGb8gdAtEe-vct8QiEaSmQ"/>
+        <cardinality xmi:id="_kCn4GtAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_kCn4G9AtEe-vct8QiEaSmQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kCn4HNAtEe-vct8QiEaSmQ" name="Revista">
+      <modelElement href="simulacionHibernate.uml#_jGdKoNAtEe-vct8QiEaSmQ"/>
+      <keywords xmi:id="_kCn4HdAtEe-vct8QiEaSmQ" keyword="create"/>
+      <stereotypes xmi:id="_kCn4HtAtEe-vct8QiEaSmQ" name="StyledElement">
+        <modelElement href="simulacionHibernate.uml#_jGe_09AtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kCn4H9AtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kCn4INAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kCn4IdAtEe-vct8QiEaSmQ">
+        <modelElement href="simulacionHibernate.uml#_jGe_0tAtEe-vct8QiEaSmQ"/>
+        <type xmi:id="_kCn4ItAtEe-vct8QiEaSmQ" name="Revista">
+          <modelElement href="simulacionHibernate.uml#_jBqxQNAtEe-vct8QiEaSmQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kCn4I9AtEe-vct8QiEaSmQ" name="nombreRevista">
+        <modelElement href="simulacionHibernate.uml#_jGdKodAtEe-vct8QiEaSmQ"/>
+        <cardinality xmi:id="_kCn4JNAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_kCn4JdAtEe-vct8QiEaSmQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kCn4JtAtEe-vct8QiEaSmQ" name="numeroRevista">
+        <modelElement href="simulacionHibernate.uml#_jGdKotAtEe-vct8QiEaSmQ"/>
+        <cardinality xmi:id="_kCn4J9AtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_kCn4KNAtEe-vct8QiEaSmQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kCn4KdAtEe-vct8QiEaSmQ" name="fecha">
+        <modelElement href="simulacionHibernate.uml#_jGdKo9AtEe-vct8QiEaSmQ"/>
+        <cardinality xmi:id="_kCn4KtAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_kCn4K9AtEe-vct8QiEaSmQ" name="LocalDate">
+          <modelElement href="simulacionHibernate.uml#_jFkZ0NAtEe-vct8QiEaSmQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kCn4LNAtEe-vct8QiEaSmQ" name="equals">
+      <modelElement href="simulacionHibernate.uml#_jGfm4NAtEe-vct8QiEaSmQ"/>
+      <stereotypes xmi:id="_kCn4LdAtEe-vct8QiEaSmQ" name="LegacyStyledElement">
+        <modelElement href="simulacionHibernate.uml#_jGg1ANAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kCn4LtAtEe-vct8QiEaSmQ" name="Annotations">
+        <modelElement href="simulacionHibernate.uml#_jGhcENAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kCn4L9AtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kCn4MNAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kCn4MdAtEe-vct8QiEaSmQ">
+        <modelElement href="simulacionHibernate.uml#_jGgN8NAtEe-vct8QiEaSmQ"/>
+        <type xmi:id="_kCn4MtAtEe-vct8QiEaSmQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kCn4M9AtEe-vct8QiEaSmQ" name="obj">
+        <modelElement href="simulacionHibernate.uml#_jGfm4dAtEe-vct8QiEaSmQ"/>
+        <cardinality xmi:id="_kCn4NNAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_kCn4NdAtEe-vct8QiEaSmQ" name="Object">
+          <modelElement href="simulacionHibernate.uml#_jGN6ENAtEe-vct8QiEaSmQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kAcGqdAtEe-vct8QiEaSmQ" name="Articulo" associationsIn="_kAX1MNAtEe-vct8QiEaSmQ _kAa4gNAtEe-vct8QiEaSmQ" associationsOut="_ZwUnQNBlEe-vct8QiEaSmQ">
+    <modelElement href="simulacionHibernate.uml#_jA58QNAtEe-vct8QiEaSmQ"/>
+    <visualProperties xmi:id="_kActsNAtEe-vct8QiEaSmQ" position="852.0,64.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_kActsdAtEe-vct8QiEaSmQ" name="Table">
+      <modelElement href="simulacionHibernate.uml#_jA-0wNAtEe-vct8QiEaSmQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_kActstAtEe-vct8QiEaSmQ" name="JPA1StyledElement">
+      <modelElement href="simulacionHibernate.uml#_jBAC4NAtEe-vct8QiEaSmQ"/>
+    </stereotypes>
+    <visibility xmi:id="_kActs9AtEe-vct8QiEaSmQ" label="+"/>
+    <attributes xmi:id="_kActtNAtEe-vct8QiEaSmQ" name="idArticulo">
+      <modelElement href="simulacionHibernate.uml#_jGrNENAtEe-vct8QiEaSmQ"/>
+      <stereotypes xmi:id="_kActtdAtEe-vct8QiEaSmQ" name="PrimaryKey">
+        <modelElement href="simulacionHibernate.uml#_jGsbMNAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kActttAtEe-vct8QiEaSmQ" name="GeneratedValueMapping">
+        <modelElement href="simulacionHibernate.uml#_jGsbMdAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kActt9AtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kActuNAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_kActudAtEe-vct8QiEaSmQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kActutAtEe-vct8QiEaSmQ" name="titulo">
+      <modelElement href="simulacionHibernate.uml#_jGuQYNAtEe-vct8QiEaSmQ"/>
+      <stereotypes xmi:id="_kActu9AtEe-vct8QiEaSmQ" name="StyledElement">
+        <modelElement href="simulacionHibernate.uml#_jGu3cNAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kActvNAtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kActvdAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_kActvtAtEe-vct8QiEaSmQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kActv9AtEe-vct8QiEaSmQ" name="numPaginaInicio">
+      <modelElement href="simulacionHibernate.uml#_jGu3cdAtEe-vct8QiEaSmQ"/>
+      <stereotypes xmi:id="_kActwNAtEe-vct8QiEaSmQ" name="StyledElement">
+        <modelElement href="simulacionHibernate.uml#_jGvegNAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kActwdAtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kActwtAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_kActw9AtEe-vct8QiEaSmQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kActxNAtEe-vct8QiEaSmQ" name="numPaginaFin">
+      <modelElement href="simulacionHibernate.uml#_jGvegdAtEe-vct8QiEaSmQ"/>
+      <stereotypes xmi:id="_kActxdAtEe-vct8QiEaSmQ" name="StyledElement">
+        <modelElement href="simulacionHibernate.uml#_jGwFkNAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kActxtAtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kActx9AtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_kActyNAtEe-vct8QiEaSmQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kActydAtEe-vct8QiEaSmQ" name="revista">
+      <modelElement href="simulacionHibernate.uml#_jGwFkdAtEe-vct8QiEaSmQ"/>
+      <stereotypes xmi:id="_kActytAtEe-vct8QiEaSmQ" name="JoinColumns">
+        <modelElement href="simulacionHibernate.uml#_jGwFktAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kActy9AtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kActzNAtEe-vct8QiEaSmQ" label="0..1" max="1"/>
+      <type xmi:id="_kActzdAtEe-vct8QiEaSmQ" name="Revista">
+        <modelElement href="simulacionHibernate.uml#_jBqxQNAtEe-vct8QiEaSmQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kActztAtEe-vct8QiEaSmQ" name="autores">
+      <modelElement href="simulacionHibernate.uml#_jGxTsNAtEe-vct8QiEaSmQ"/>
+      <stereotypes xmi:id="_kActz9AtEe-vct8QiEaSmQ" name="LegacyStyledElement">
+        <modelElement href="simulacionHibernate.uml#_jGx6wNAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kAct0NAtEe-vct8QiEaSmQ" name="Annotations">
+        <modelElement href="simulacionHibernate.uml#_jGyh0NAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kAct0dAtEe-vct8QiEaSmQ" label="-"/>
+      <cardinality xmi:id="_kAct0tAtEe-vct8QiEaSmQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_kAct09AtEe-vct8QiEaSmQ" name="Autor">
+        <modelElement href="simulacionHibernate.uml#_jBOFUNAtEe-vct8QiEaSmQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_kAct1NAtEe-vct8QiEaSmQ" name="Articulo">
+      <modelElement href="simulacionHibernate.uml#_jBB4ENAtEe-vct8QiEaSmQ"/>
+      <keywords xmi:id="_kAct1dAtEe-vct8QiEaSmQ" keyword="create"/>
+      <stereotypes xmi:id="_kAct1tAtEe-vct8QiEaSmQ" name="StyledElement">
+        <modelElement href="simulacionHibernate.uml#_jBDGMNAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kAct19AtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kAct2NAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kAct2dAtEe-vct8QiEaSmQ">
+        <modelElement href="simulacionHibernate.uml#_jBCfItAtEe-vct8QiEaSmQ"/>
+        <type xmi:id="_kAct2tAtEe-vct8QiEaSmQ" name="Articulo">
+          <modelElement href="simulacionHibernate.uml#_jA58QNAtEe-vct8QiEaSmQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kAct29AtEe-vct8QiEaSmQ" name="Articulo">
+      <modelElement href="simulacionHibernate.uml#_jBDtQNAtEe-vct8QiEaSmQ"/>
+      <keywords xmi:id="_kAct3NAtEe-vct8QiEaSmQ" keyword="create"/>
+      <stereotypes xmi:id="_kAct3dAtEe-vct8QiEaSmQ" name="StyledElement">
+        <modelElement href="simulacionHibernate.uml#_jBEUUNAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kAct3tAtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kAct39AtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kAct4NAtEe-vct8QiEaSmQ">
+        <modelElement href="simulacionHibernate.uml#_jBDtRNAtEe-vct8QiEaSmQ"/>
+        <type xmi:id="_kAct4dAtEe-vct8QiEaSmQ" name="Articulo">
+          <modelElement href="simulacionHibernate.uml#_jA58QNAtEe-vct8QiEaSmQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kAct4tAtEe-vct8QiEaSmQ" name="titulo">
+        <modelElement href="simulacionHibernate.uml#_jBDtQdAtEe-vct8QiEaSmQ"/>
+        <cardinality xmi:id="_kAct49AtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_kAct5NAtEe-vct8QiEaSmQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kAct5dAtEe-vct8QiEaSmQ" name="Articulo">
+      <modelElement href="simulacionHibernate.uml#_jBE7YNAtEe-vct8QiEaSmQ"/>
+      <keywords xmi:id="_kAct5tAtEe-vct8QiEaSmQ" keyword="create"/>
+      <stereotypes xmi:id="_kAct59AtEe-vct8QiEaSmQ" name="StyledElement">
+        <modelElement href="simulacionHibernate.uml#_jBGJgNAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kAct6NAtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kAct6dAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kAct6tAtEe-vct8QiEaSmQ">
+        <modelElement href="simulacionHibernate.uml#_jBFictAtEe-vct8QiEaSmQ"/>
+        <type xmi:id="_kAct69AtEe-vct8QiEaSmQ" name="Articulo">
+          <modelElement href="simulacionHibernate.uml#_jA58QNAtEe-vct8QiEaSmQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kAct7NAtEe-vct8QiEaSmQ" name="titulo">
+        <modelElement href="simulacionHibernate.uml#_jBE7YdAtEe-vct8QiEaSmQ"/>
+        <cardinality xmi:id="_kAct7dAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_kAct7tAtEe-vct8QiEaSmQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kAct79AtEe-vct8QiEaSmQ" name="numPaginaInicio">
+        <modelElement href="simulacionHibernate.uml#_jBE7YtAtEe-vct8QiEaSmQ"/>
+        <cardinality xmi:id="_kAct8NAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_kAct8dAtEe-vct8QiEaSmQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kAct8tAtEe-vct8QiEaSmQ" name="numPaginaFin">
+        <modelElement href="simulacionHibernate.uml#_jBE7Y9AtEe-vct8QiEaSmQ"/>
+        <cardinality xmi:id="_kAct89AtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_kAct9NAtEe-vct8QiEaSmQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kAct9dAtEe-vct8QiEaSmQ" name="toString">
+      <modelElement href="simulacionHibernate.uml#_jBGJgdAtEe-vct8QiEaSmQ"/>
+      <stereotypes xmi:id="_kAct9tAtEe-vct8QiEaSmQ" name="LegacyStyledElement">
+        <modelElement href="simulacionHibernate.uml#_jBGwkdAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kAct99AtEe-vct8QiEaSmQ" name="Annotations">
+        <modelElement href="simulacionHibernate.uml#_jBHXoNAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kAct-NAtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kAct-dAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kAct-tAtEe-vct8QiEaSmQ">
+        <modelElement href="simulacionHibernate.uml#_jBGwkNAtEe-vct8QiEaSmQ"/>
+        <type xmi:id="_kAct-9AtEe-vct8QiEaSmQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kAct_NAtEe-vct8QiEaSmQ" name="getAutores">
+      <modelElement href="simulacionHibernate.uml#_jBH-sNAtEe-vct8QiEaSmQ"/>
+      <stereotypes xmi:id="_kAct_dAtEe-vct8QiEaSmQ" name="StyledElement">
+        <modelElement href="simulacionHibernate.uml#_jBJM0NAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kAct_tAtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kAct_9AtEe-vct8QiEaSmQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_kAcuANAtEe-vct8QiEaSmQ">
+        <modelElement href="simulacionHibernate.uml#_jBIlwNAtEe-vct8QiEaSmQ"/>
+        <type xmi:id="_kAcuAdAtEe-vct8QiEaSmQ" name="Autor">
+          <modelElement href="simulacionHibernate.uml#_jBOFUNAtEe-vct8QiEaSmQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kAcuAtAtEe-vct8QiEaSmQ" name="addAutor">
+      <modelElement href="simulacionHibernate.uml#_jFSF8NAtEe-vct8QiEaSmQ"/>
+      <stereotypes xmi:id="_kAcuA9AtEe-vct8QiEaSmQ" name="StyledElement">
+        <modelElement href="simulacionHibernate.uml#_jFT7INAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kAcuBNAtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kAcuBdAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kAcuBtAtEe-vct8QiEaSmQ" name="a">
+        <modelElement href="simulacionHibernate.uml#_jFStANAtEe-vct8QiEaSmQ"/>
+        <cardinality xmi:id="_kAcuB9AtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_kAcuCNAtEe-vct8QiEaSmQ" name="Autor">
+          <modelElement href="simulacionHibernate.uml#_jBOFUNAtEe-vct8QiEaSmQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kB5fMNAtEe-vct8QiEaSmQ" name="Autor">
+    <modelElement href="simulacionHibernate.uml#_jBOFUNAtEe-vct8QiEaSmQ"/>
+    <visualProperties xmi:id="_kB5fMdAtEe-vct8QiEaSmQ" position="908.0,476.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_kB5fMtAtEe-vct8QiEaSmQ" name="Table">
+      <modelElement href="simulacionHibernate.uml#_jBbgsNAtEe-vct8QiEaSmQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_kB5fM9AtEe-vct8QiEaSmQ" name="JPA1StyledElement">
+      <modelElement href="simulacionHibernate.uml#_jBcu0NAtEe-vct8QiEaSmQ"/>
+    </stereotypes>
+    <visibility xmi:id="_kB5fNdAtEe-vct8QiEaSmQ" label="+"/>
+    <attributes xmi:id="_kB5fNtAtEe-vct8QiEaSmQ" name="dni">
+      <modelElement href="simulacionHibernate.uml#_jGzv8NAtEe-vct8QiEaSmQ"/>
+      <stereotypes xmi:id="_kB5fN9AtEe-vct8QiEaSmQ" name="PrimaryKey">
+        <modelElement href="simulacionHibernate.uml#_jG0XANAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kB5fONAtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kB5fOdAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_kB5fOtAtEe-vct8QiEaSmQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kB5fO9AtEe-vct8QiEaSmQ" name="nombre">
+      <modelElement href="simulacionHibernate.uml#_jG2MMNAtEe-vct8QiEaSmQ"/>
+      <stereotypes xmi:id="_kB5fPNAtEe-vct8QiEaSmQ" name="StyledElement">
+        <modelElement href="simulacionHibernate.uml#_jG2MMdAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kB5fPdAtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kB5fPtAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_kB5fP9AtEe-vct8QiEaSmQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kB5fQNAtEe-vct8QiEaSmQ" name="email">
+      <modelElement href="simulacionHibernate.uml#_jG2zQNAtEe-vct8QiEaSmQ"/>
+      <stereotypes xmi:id="_kB5fQdAtEe-vct8QiEaSmQ" name="StyledElement">
+        <modelElement href="simulacionHibernate.uml#_jG3aUNAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kB5fQtAtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kB5fQ9AtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_kB5fRNAtEe-vct8QiEaSmQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kB5fRdAtEe-vct8QiEaSmQ" name="articulos">
+      <modelElement href="simulacionHibernate.uml#_jG3aUdAtEe-vct8QiEaSmQ"/>
+      <visibility xmi:id="_kB5fRtAtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kB5fR9AtEe-vct8QiEaSmQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_kB5fSNAtEe-vct8QiEaSmQ" name="Articulo">
+        <modelElement href="simulacionHibernate.uml#_jA58QNAtEe-vct8QiEaSmQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_kB5fSdAtEe-vct8QiEaSmQ" name="Autor">
+      <modelElement href="simulacionHibernate.uml#_jBd88NAtEe-vct8QiEaSmQ"/>
+      <keywords xmi:id="_kB5fStAtEe-vct8QiEaSmQ" keyword="create"/>
+      <stereotypes xmi:id="_kB5fS9AtEe-vct8QiEaSmQ" name="StyledElement">
+        <modelElement href="simulacionHibernate.uml#_jBekA9AtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kB5fTNAtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kB5fTdAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kB5fTtAtEe-vct8QiEaSmQ">
+        <modelElement href="simulacionHibernate.uml#_jBekAtAtEe-vct8QiEaSmQ"/>
+        <type xmi:id="_kB5fT9AtEe-vct8QiEaSmQ" name="Autor">
+          <modelElement href="simulacionHibernate.uml#_jBOFUNAtEe-vct8QiEaSmQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kB5fUNAtEe-vct8QiEaSmQ" name="Autor">
+      <modelElement href="simulacionHibernate.uml#_jBfLENAtEe-vct8QiEaSmQ"/>
+      <keywords xmi:id="_kB5fUdAtEe-vct8QiEaSmQ" keyword="create"/>
+      <stereotypes xmi:id="_kB5fUtAtEe-vct8QiEaSmQ" name="StyledElement">
+        <modelElement href="simulacionHibernate.uml#_jBfyI9AtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kB5fU9AtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kB5fVNAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kB5fVdAtEe-vct8QiEaSmQ">
+        <modelElement href="simulacionHibernate.uml#_jBfyItAtEe-vct8QiEaSmQ"/>
+        <type xmi:id="_kB5fVtAtEe-vct8QiEaSmQ" name="Autor">
+          <modelElement href="simulacionHibernate.uml#_jBOFUNAtEe-vct8QiEaSmQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kB5fV9AtEe-vct8QiEaSmQ" name="dni">
+        <modelElement href="simulacionHibernate.uml#_jBfLEdAtEe-vct8QiEaSmQ"/>
+        <cardinality xmi:id="_kB5fWNAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_kB6GQNAtEe-vct8QiEaSmQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kB6GQdAtEe-vct8QiEaSmQ" name="Autor">
+      <modelElement href="simulacionHibernate.uml#_jBgZMNAtEe-vct8QiEaSmQ"/>
+      <keywords xmi:id="_kB6GQtAtEe-vct8QiEaSmQ" keyword="create"/>
+      <stereotypes xmi:id="_kB6GQ9AtEe-vct8QiEaSmQ" name="StyledElement">
+        <modelElement href="simulacionHibernate.uml#_jBiOYNAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kB6GRNAtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kB6GRdAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kB6GRtAtEe-vct8QiEaSmQ">
+        <modelElement href="simulacionHibernate.uml#_jBhAQ9AtEe-vct8QiEaSmQ"/>
+        <type xmi:id="_kB6GR9AtEe-vct8QiEaSmQ" name="Autor">
+          <modelElement href="simulacionHibernate.uml#_jBOFUNAtEe-vct8QiEaSmQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kB6GSNAtEe-vct8QiEaSmQ" name="dni">
+        <modelElement href="simulacionHibernate.uml#_jBgZMdAtEe-vct8QiEaSmQ"/>
+        <cardinality xmi:id="_kB6GSdAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_kB6GStAtEe-vct8QiEaSmQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kB6GS9AtEe-vct8QiEaSmQ" name="nombre">
+        <modelElement href="simulacionHibernate.uml#_jBgZMtAtEe-vct8QiEaSmQ"/>
+        <cardinality xmi:id="_kB6GTNAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_kB6GTdAtEe-vct8QiEaSmQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kB6GTtAtEe-vct8QiEaSmQ" name="email">
+        <modelElement href="simulacionHibernate.uml#_jBhAQNAtEe-vct8QiEaSmQ"/>
+        <cardinality xmi:id="_kB6GT9AtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_kB6GUNAtEe-vct8QiEaSmQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kB6GUdAtEe-vct8QiEaSmQ" name="hashCode">
+      <modelElement href="simulacionHibernate.uml#_jBi1cNAtEe-vct8QiEaSmQ"/>
+      <stereotypes xmi:id="_kB6GUtAtEe-vct8QiEaSmQ" name="LegacyStyledElement">
+        <modelElement href="simulacionHibernate.uml#_jBkDkNAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kB6GU9AtEe-vct8QiEaSmQ" name="Annotations">
+        <modelElement href="simulacionHibernate.uml#_jBkqoNAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kB6GVNAtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kB6GVdAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kB6GVtAtEe-vct8QiEaSmQ">
+        <modelElement href="simulacionHibernate.uml#_jBjcgNAtEe-vct8QiEaSmQ"/>
+        <type xmi:id="_kB6GV9AtEe-vct8QiEaSmQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kB6GWNAtEe-vct8QiEaSmQ" name="toString">
+      <modelElement href="simulacionHibernate.uml#_jBkqotAtEe-vct8QiEaSmQ"/>
+      <stereotypes xmi:id="_kB6GWdAtEe-vct8QiEaSmQ" name="LegacyStyledElement">
+        <modelElement href="simulacionHibernate.uml#_jBlRsdAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kB6GWtAtEe-vct8QiEaSmQ" name="Annotations">
+        <modelElement href="simulacionHibernate.uml#_jBmf0NAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kB6GW9AtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kB6GXNAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kB6GXdAtEe-vct8QiEaSmQ">
+        <modelElement href="simulacionHibernate.uml#_jBlRsNAtEe-vct8QiEaSmQ"/>
+        <type xmi:id="_kB6GXtAtEe-vct8QiEaSmQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kB6GX9AtEe-vct8QiEaSmQ" name="addArticulo">
+      <modelElement href="simulacionHibernate.uml#_jFgvcNAtEe-vct8QiEaSmQ"/>
+      <stereotypes xmi:id="_kB6GYNAtEe-vct8QiEaSmQ" name="StyledElement">
+        <modelElement href="simulacionHibernate.uml#_jFhWgNAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kB6GYdAtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kB6GYtAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kB6GY9AtEe-vct8QiEaSmQ" name="articulo">
+        <modelElement href="simulacionHibernate.uml#_jFgvcdAtEe-vct8QiEaSmQ"/>
+        <cardinality xmi:id="_kB6GZNAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_kB6GZdAtEe-vct8QiEaSmQ" name="Articulo">
+          <modelElement href="simulacionHibernate.uml#_jA58QNAtEe-vct8QiEaSmQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kB6GZtAtEe-vct8QiEaSmQ" name="equals">
+      <modelElement href="simulacionHibernate.uml#_jGV14dAtEe-vct8QiEaSmQ"/>
+      <stereotypes xmi:id="_kB6GZ9AtEe-vct8QiEaSmQ" name="LegacyStyledElement">
+        <modelElement href="simulacionHibernate.uml#_jGXEANAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kB6GaNAtEe-vct8QiEaSmQ" name="Annotations">
+        <modelElement href="simulacionHibernate.uml#_jGXEAdAtEe-vct8QiEaSmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_kB6GadAtEe-vct8QiEaSmQ" label="+"/>
+      <cardinality xmi:id="_kB6GatAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kB6Ga9AtEe-vct8QiEaSmQ">
+        <modelElement href="simulacionHibernate.uml#_jGWc8dAtEe-vct8QiEaSmQ"/>
+        <type xmi:id="_kB6GbNAtEe-vct8QiEaSmQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kB6GbdAtEe-vct8QiEaSmQ" name="obj">
+        <modelElement href="simulacionHibernate.uml#_jGWc8NAtEe-vct8QiEaSmQ"/>
+        <cardinality xmi:id="_kB6GbtAtEe-vct8QiEaSmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_kB6Gb9AtEe-vct8QiEaSmQ" name="Object">
+          <modelElement href="simulacionHibernate.uml#_jGN6ENAtEe-vct8QiEaSmQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

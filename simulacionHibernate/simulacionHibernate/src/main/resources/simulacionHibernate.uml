@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Persistency="http:///schemas/Persistency/NS/0" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/Persistency/NS/0 pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_a34msNAtEe-vct8QiEaSmQ" name="simulacionHibernate">
+    <eAnnotations xmi:id="_bJYmYNAtEe-vct8QiEaSmQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_bJYmYdAtEe-vct8QiEaSmQ" source="codegen">
+        <details xmi:id="_bJZNcNAtEe-vct8QiEaSmQ" key="codegenDirectory" value="/simulacionHibernate/src/main/java"/>
+        <details xmi:id="_j_qqkNAtEe-vct8QiEaSmQ" key="AssociatedSourceCode" value="/simulacionHibernate/src/main/java/modelos/Articulo.java;1828505280/1;/simulacionHibernate/src/main/java/modelos/Autor.java;1781244057/1;/simulacionHibernate/src/main/java/modelos/Revista.java;2473462161/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_jAFc4NAtEe-vct8QiEaSmQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_jAGD8NAtEe-vct8QiEaSmQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_jAGD8dAtEe-vct8QiEaSmQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_jAGD8tAtEe-vct8QiEaSmQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_jAGD89AtEe-vct8QiEaSmQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_jAGrANAtEe-vct8QiEaSmQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_jAGrAdAtEe-vct8QiEaSmQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_jAGrAtAtEe-vct8QiEaSmQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_jAGrA9AtEe-vct8QiEaSmQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_jAH5INAtEe-vct8QiEaSmQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_jAIgMNAtEe-vct8QiEaSmQ" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_jDOQcNAtEe-vct8QiEaSmQ" name="HashSet"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_jDWMQNAtEe-vct8QiEaSmQ" name="Set"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jFYMkNAtEe-vct8QiEaSmQ" name="Objects"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jFrukdAtEe-vct8QiEaSmQ" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_jFzDUNAtEe-vct8QiEaSmQ" name="List"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_jAfFgNAtEe-vct8QiEaSmQ" name="time">
+        <packagedElement xmi:type="uml:Class" xmi:id="_jFkZ0NAtEe-vct8QiEaSmQ" name="LocalDate"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_jGNTANAtEe-vct8QiEaSmQ" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_jGN6ENAtEe-vct8QiEaSmQ" name="Object"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_jAIgMdAtEe-vct8QiEaSmQ" name="jakarta">
+      <packagedElement xmi:type="uml:Package" xmi:id="_jAIgMtAtEe-vct8QiEaSmQ" name="persistence">
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_jDdhANAtEe-vct8QiEaSmQ" name="CascadeType"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_jDqVUdAtEe-vct8QiEaSmQ" name="Entity"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_jD0GUNAtEe-vct8QiEaSmQ" name="GeneratedValue"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_jD93UNAtEe-vct8QiEaSmQ" name="GenerationType"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_jEGaMdAtEe-vct8QiEaSmQ" name="Id"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_jESncdAtEe-vct8QiEaSmQ" name="JoinColumn"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_jEZVIdAtEe-vct8QiEaSmQ" name="ManyToMany"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_jEgC0dAtEe-vct8QiEaSmQ" name="ManyToOne"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_jEn-oNAtEe-vct8QiEaSmQ" name="Table"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_jF6YENAtEe-vct8QiEaSmQ" name="OneToMany"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_jAP08NAtEe-vct8QiEaSmQ" name="modelos">
+      <packagedElement xmi:type="uml:Class" xmi:id="_jA58QNAtEe-vct8QiEaSmQ" name="Articulo">
+        <ownedAttribute xmi:id="_jGrNENAtEe-vct8QiEaSmQ" name="idArticulo">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_jGuQYNAtEe-vct8QiEaSmQ" name="titulo">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_jGu3cdAtEe-vct8QiEaSmQ" name="numPaginaInicio">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_jGvegdAtEe-vct8QiEaSmQ" name="numPaginaFin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_jGwFkdAtEe-vct8QiEaSmQ" name="revista" type="_jBqxQNAtEe-vct8QiEaSmQ" association="_jHAkQtAtEe-vct8QiEaSmQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jGwsoNAtEe-vct8QiEaSmQ"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_jGxTsNAtEe-vct8QiEaSmQ" name="autores" visibility="private" type="_jBOFUNAtEe-vct8QiEaSmQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jGxTsdAtEe-vct8QiEaSmQ" value="*"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jHBLUNAtEe-vct8QiEaSmQ" name="Articulo" specification="_jBB4ENAtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jHBLUdAtEe-vct8QiEaSmQ" type="_jA58QNAtEe-vct8QiEaSmQ" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>super();&#xD;
+		this.titulo = &quot;&quot;;&#xD;
+		this.autores = new HashSet&lt;Autor>();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jHByYNAtEe-vct8QiEaSmQ" name="addAutor" specification="_jFSF8NAtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jHByYdAtEe-vct8QiEaSmQ" name="a" type="_jBOFUNAtEe-vct8QiEaSmQ"/>
+          <language>java</language>
+          <body>this.autores.add(a);&#xD;
+		if (!a.getArticulos().contains(this)) {&#xD;
+			a.getArticulos().add(this);&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jHByYtAtEe-vct8QiEaSmQ" name="Articulo" specification="_jBDtQNAtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jHByY9AtEe-vct8QiEaSmQ" name="titulo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_jHByZNAtEe-vct8QiEaSmQ" type="_jA58QNAtEe-vct8QiEaSmQ" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>super();&#xD;
+		this.titulo = titulo;&#xD;
+		this.autores = new HashSet&lt;Autor>();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jHFcwNAtEe-vct8QiEaSmQ" name="Articulo" specification="_jBE7YNAtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jHFcwdAtEe-vct8QiEaSmQ" name="titulo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_jHFcwtAtEe-vct8QiEaSmQ" name="numPaginaInicio">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_jHFcw9AtEe-vct8QiEaSmQ" name="numPaginaFin">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_jHFcxNAtEe-vct8QiEaSmQ" type="_jA58QNAtEe-vct8QiEaSmQ" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>super();&#xD;
+		this.titulo = titulo;&#xD;
+		this.numPaginaInicio = numPaginaInicio;&#xD;
+		this.numPaginaFin = numPaginaFin;&#xD;
+		this.autores = new HashSet&lt;Autor>();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jHGD0NAtEe-vct8QiEaSmQ" name="toString" specification="_jBGJgdAtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jHGD0dAtEe-vct8QiEaSmQ" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;Articulo [idArticulo=&quot; + idArticulo + &quot;, titulo=&quot; + titulo + &quot;, numPaginaInicio=&quot; + numPaginaInicio&#xD;
+				+ &quot;, numPaginaFin=&quot; + numPaginaFin + &quot;]&quot;;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jHGD0tAtEe-vct8QiEaSmQ" name="getAutores" specification="_jBH-sNAtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jHGD09AtEe-vct8QiEaSmQ" type="_jBOFUNAtEe-vct8QiEaSmQ" direction="return">
+            <name xsi:nil="true"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jHGD1NAtEe-vct8QiEaSmQ" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return autores;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_jBB4ENAtEe-vct8QiEaSmQ" name="Articulo" method="_jHBLUNAtEe-vct8QiEaSmQ">
+          <eAnnotations xmi:id="_jBCfINAtEe-vct8QiEaSmQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_jBCfIdAtEe-vct8QiEaSmQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_jBCfItAtEe-vct8QiEaSmQ" type="_jA58QNAtEe-vct8QiEaSmQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_jBDtQNAtEe-vct8QiEaSmQ" name="Articulo" method="_jHByYtAtEe-vct8QiEaSmQ">
+          <eAnnotations xmi:id="_jBDtQtAtEe-vct8QiEaSmQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_jBDtQ9AtEe-vct8QiEaSmQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_jBDtQdAtEe-vct8QiEaSmQ" name="titulo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_jBDtRNAtEe-vct8QiEaSmQ" type="_jA58QNAtEe-vct8QiEaSmQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_jBE7YNAtEe-vct8QiEaSmQ" name="Articulo" method="_jHFcwNAtEe-vct8QiEaSmQ">
+          <eAnnotations xmi:id="_jBFicNAtEe-vct8QiEaSmQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_jBFicdAtEe-vct8QiEaSmQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_jBE7YdAtEe-vct8QiEaSmQ" name="titulo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_jBE7YtAtEe-vct8QiEaSmQ" name="numPaginaInicio">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_jBE7Y9AtEe-vct8QiEaSmQ" name="numPaginaFin">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_jBFictAtEe-vct8QiEaSmQ" type="_jA58QNAtEe-vct8QiEaSmQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_jBGJgdAtEe-vct8QiEaSmQ" name="toString" method="_jHGD0NAtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jBGwkNAtEe-vct8QiEaSmQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_jBH-sNAtEe-vct8QiEaSmQ" name="getAutores" method="_jHGD0tAtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jBIlwNAtEe-vct8QiEaSmQ" type="_jBOFUNAtEe-vct8QiEaSmQ" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jBIlwdAtEe-vct8QiEaSmQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_jFSF8NAtEe-vct8QiEaSmQ" name="addAutor" method="_jHByYNAtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jFStANAtEe-vct8QiEaSmQ" name="a" type="_jBOFUNAtEe-vct8QiEaSmQ"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_jBOFUNAtEe-vct8QiEaSmQ" name="Autor">
+        <ownedAttribute xmi:id="_jGzv8NAtEe-vct8QiEaSmQ" name="dni">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_jG2MMNAtEe-vct8QiEaSmQ" name="nombre">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_jG2zQNAtEe-vct8QiEaSmQ" name="email">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_jG3aUdAtEe-vct8QiEaSmQ" name="articulos" type="_jA58QNAtEe-vct8QiEaSmQ" aggregation="composite" association="_Zv_QENBlEe-vct8QiEaSmQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jG4BYNAtEe-vct8QiEaSmQ" value="*"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jHGq4NAtEe-vct8QiEaSmQ" name="Autor" specification="_jBd88NAtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jHGq4dAtEe-vct8QiEaSmQ" type="_jBOFUNAtEe-vct8QiEaSmQ" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>super();&#xD;
+		this.email = &quot;&quot;;&#xD;
+		this.nombre = &quot;&quot;;&#xD;
+		this.articulos = new HashSet&lt;Articulo>();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jHHR8NAtEe-vct8QiEaSmQ" name="Autor" specification="_jBfLENAtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jHHR8dAtEe-vct8QiEaSmQ" name="dni">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_jHHR8tAtEe-vct8QiEaSmQ" type="_jBOFUNAtEe-vct8QiEaSmQ" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>super();&#xD;
+		this.dni = dni;&#xD;
+		this.articulos = new HashSet&lt;Articulo>();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jHH5ANAtEe-vct8QiEaSmQ" name="Autor" specification="_jBgZMNAtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jHH5AdAtEe-vct8QiEaSmQ" name="dni">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_jHH5AtAtEe-vct8QiEaSmQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_jHH5A9AtEe-vct8QiEaSmQ" name="email">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_jHH5BNAtEe-vct8QiEaSmQ" type="_jBOFUNAtEe-vct8QiEaSmQ" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>super();&#xD;
+		this.dni = dni;&#xD;
+		this.nombre = nombre;&#xD;
+		this.email = email;&#xD;
+		this.articulos = new HashSet&lt;Articulo>();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jHH5BdAtEe-vct8QiEaSmQ" name="hashCode" specification="_jBi1cNAtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jHH5BtAtEe-vct8QiEaSmQ" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return Objects.hash(dni);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jHH5B9AtEe-vct8QiEaSmQ" name="equals" specification="_jGV14dAtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jHH5CNAtEe-vct8QiEaSmQ" name="obj" type="_jGN6ENAtEe-vct8QiEaSmQ"/>
+          <ownedParameter xmi:id="_jHH5CdAtEe-vct8QiEaSmQ" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (this == obj)&#xD;
+			return true;&#xD;
+		if (obj == null)&#xD;
+			return false;&#xD;
+		if (getClass() != obj.getClass())&#xD;
+			return false;&#xD;
+		Autor other = (Autor) obj;&#xD;
+		return Objects.equals(dni, other.dni);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jHIgENAtEe-vct8QiEaSmQ" name="toString" specification="_jBkqotAtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jHIgEdAtEe-vct8QiEaSmQ" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;Autor []&quot;;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jHIgEtAtEe-vct8QiEaSmQ" name="addArticulo" specification="_jFgvcNAtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jHIgE9AtEe-vct8QiEaSmQ" name="articulo" type="_jA58QNAtEe-vct8QiEaSmQ"/>
+          <language>java</language>
+          <body>this.articulos.add(articulo);&#xD;
+		if (!articulo.getAutores().contains(this)) {&#xD;
+			articulo.getAutores().add(this);&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_jBd88NAtEe-vct8QiEaSmQ" name="Autor" method="_jHGq4NAtEe-vct8QiEaSmQ">
+          <eAnnotations xmi:id="_jBekANAtEe-vct8QiEaSmQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_jBekAdAtEe-vct8QiEaSmQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_jBekAtAtEe-vct8QiEaSmQ" type="_jBOFUNAtEe-vct8QiEaSmQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_jBfLENAtEe-vct8QiEaSmQ" name="Autor" method="_jHHR8NAtEe-vct8QiEaSmQ">
+          <eAnnotations xmi:id="_jBfyINAtEe-vct8QiEaSmQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_jBfyIdAtEe-vct8QiEaSmQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_jBfLEdAtEe-vct8QiEaSmQ" name="dni">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_jBfyItAtEe-vct8QiEaSmQ" type="_jBOFUNAtEe-vct8QiEaSmQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_jBgZMNAtEe-vct8QiEaSmQ" name="Autor" method="_jHH5ANAtEe-vct8QiEaSmQ">
+          <eAnnotations xmi:id="_jBhAQdAtEe-vct8QiEaSmQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_jBhAQtAtEe-vct8QiEaSmQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_jBgZMdAtEe-vct8QiEaSmQ" name="dni">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_jBgZMtAtEe-vct8QiEaSmQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_jBhAQNAtEe-vct8QiEaSmQ" name="email">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_jBhAQ9AtEe-vct8QiEaSmQ" type="_jBOFUNAtEe-vct8QiEaSmQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_jBi1cNAtEe-vct8QiEaSmQ" name="hashCode" method="_jHH5BdAtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jBjcgNAtEe-vct8QiEaSmQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_jBkqotAtEe-vct8QiEaSmQ" name="toString" method="_jHIgENAtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jBlRsNAtEe-vct8QiEaSmQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_jFgvcNAtEe-vct8QiEaSmQ" name="addArticulo" method="_jHIgEtAtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jFgvcdAtEe-vct8QiEaSmQ" name="articulo" type="_jA58QNAtEe-vct8QiEaSmQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_jGV14dAtEe-vct8QiEaSmQ" name="equals" method="_jHH5B9AtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jGWc8NAtEe-vct8QiEaSmQ" name="obj" type="_jGN6ENAtEe-vct8QiEaSmQ"/>
+          <ownedParameter xmi:id="_jGWc8dAtEe-vct8QiEaSmQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_jBqxQNAtEe-vct8QiEaSmQ" name="Revista">
+        <ownedAttribute xmi:id="_jG52kNAtEe-vct8QiEaSmQ" name="idRevista">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_jG7rwNAtEe-vct8QiEaSmQ" name="nombreRevista">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_jG8S0dAtEe-vct8QiEaSmQ" name="numeroRevista">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_jG8S09AtEe-vct8QiEaSmQ" name="fecha" visibility="private" type="_jFkZ0NAtEe-vct8QiEaSmQ" association="_jHhhodAtEe-vct8QiEaSmQ"/>
+        <ownedAttribute xmi:id="_jG9g8NAtEe-vct8QiEaSmQ" name="unidadesImpresas">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_jG9g8tAtEe-vct8QiEaSmQ" name="articulos" visibility="private" type="_jA58QNAtEe-vct8QiEaSmQ" isOrdered="true" association="_jHu9AdAtEe-vct8QiEaSmQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jG9g89AtEe-vct8QiEaSmQ" value="*"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jHJHINAtEe-vct8QiEaSmQ" name="addArticulo" specification="_jGDiANAtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jHJHIdAtEe-vct8QiEaSmQ" name="a" type="_jA58QNAtEe-vct8QiEaSmQ"/>
+          <language>java</language>
+          <body>if (!this.articulos.contains(a)) {&#xD;
+			this.articulos.add(a);&#xD;
+		}&#xD;
+		a.setRevista(this);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jHLjYNAtEe-vct8QiEaSmQ" name="getArticulos" specification="_jB5awNAtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jHLjYdAtEe-vct8QiEaSmQ" type="_jA58QNAtEe-vct8QiEaSmQ" isOrdered="true" direction="return">
+            <name xsi:nil="true"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jHLjYtAtEe-vct8QiEaSmQ" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return articulos;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jHLjY9AtEe-vct8QiEaSmQ" name="Revista" specification="_jB7P8dAtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jHLjZNAtEe-vct8QiEaSmQ" type="_jBqxQNAtEe-vct8QiEaSmQ" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>super();&#xD;
+		this.nombreRevista = &quot;&quot;;&#xD;
+		this.articulos = new ArrayList&lt;Articulo>();&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jHMKcNAtEe-vct8QiEaSmQ" name="Revista" specification="_jGZgQNAtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jHMKcdAtEe-vct8QiEaSmQ" name="nombreRevista">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_jHMKctAtEe-vct8QiEaSmQ" name="numeroRevista">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_jHMKc9AtEe-vct8QiEaSmQ" name="fecha" type="_jFkZ0NAtEe-vct8QiEaSmQ"/>
+          <ownedParameter xmi:id="_jHMKdNAtEe-vct8QiEaSmQ" name="unidadesImpresas">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_jHMKddAtEe-vct8QiEaSmQ" type="_jBqxQNAtEe-vct8QiEaSmQ" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>super();&#xD;
+		this.nombreRevista = nombreRevista;&#xD;
+		this.numeroRevista = numeroRevista;&#xD;
+		this.fecha = fecha;&#xD;
+		this.unidadesImpresas = unidadesImpresas;&#xD;
+		this.articulos = new ArrayList&lt;Articulo>();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jHMxgNAtEe-vct8QiEaSmQ" name="Revista" specification="_jGdKoNAtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jHMxgdAtEe-vct8QiEaSmQ" name="nombreRevista">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_jHMxgtAtEe-vct8QiEaSmQ" name="numeroRevista">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_jHMxg9AtEe-vct8QiEaSmQ" name="fecha" type="_jFkZ0NAtEe-vct8QiEaSmQ"/>
+          <ownedParameter xmi:id="_jHMxhNAtEe-vct8QiEaSmQ" type="_jBqxQNAtEe-vct8QiEaSmQ" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>super();&#xD;
+		this.nombreRevista = nombreRevista;&#xD;
+		this.numeroRevista = numeroRevista;&#xD;
+		this.fecha = fecha;&#xD;
+		this.articulos = new ArrayList&lt;Articulo>();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jHMxhdAtEe-vct8QiEaSmQ" name="hashCode" specification="_jCB9oNAtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jHMxhtAtEe-vct8QiEaSmQ" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return Objects.hash(idRevista);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jHNYkNAtEe-vct8QiEaSmQ" name="equals" specification="_jGfm4NAtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jHNYkdAtEe-vct8QiEaSmQ" name="obj" type="_jGN6ENAtEe-vct8QiEaSmQ"/>
+          <ownedParameter xmi:id="_jHNYktAtEe-vct8QiEaSmQ" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (this == obj)&#xD;
+			return true;&#xD;
+		if (obj == null)&#xD;
+			return false;&#xD;
+		if (getClass() != obj.getClass())&#xD;
+			return false;&#xD;
+		Revista other = (Revista) obj;&#xD;
+		return idRevista == other.idRevista;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_jB5awNAtEe-vct8QiEaSmQ" name="getArticulos" method="_jHLjYNAtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jB6o4NAtEe-vct8QiEaSmQ" type="_jA58QNAtEe-vct8QiEaSmQ" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jB6o4dAtEe-vct8QiEaSmQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_jB7P8dAtEe-vct8QiEaSmQ" name="Revista" method="_jHLjY9AtEe-vct8QiEaSmQ">
+          <eAnnotations xmi:id="_jB7P8tAtEe-vct8QiEaSmQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_jB7P89AtEe-vct8QiEaSmQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_jB73ANAtEe-vct8QiEaSmQ" type="_jBqxQNAtEe-vct8QiEaSmQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_jCB9oNAtEe-vct8QiEaSmQ" name="hashCode" method="_jHMxhdAtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jCCksNAtEe-vct8QiEaSmQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_jGDiANAtEe-vct8QiEaSmQ" name="addArticulo" method="_jHJHINAtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jGDiAdAtEe-vct8QiEaSmQ" name="a" type="_jA58QNAtEe-vct8QiEaSmQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_jGZgQNAtEe-vct8QiEaSmQ" name="Revista" method="_jHMKcNAtEe-vct8QiEaSmQ">
+          <eAnnotations xmi:id="_jGcjkNAtEe-vct8QiEaSmQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_jGcjkdAtEe-vct8QiEaSmQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_jGaHUNAtEe-vct8QiEaSmQ" name="nombreRevista">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_jGauYNAtEe-vct8QiEaSmQ" name="numeroRevista">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_jGb8gNAtEe-vct8QiEaSmQ" name="fecha" type="_jFkZ0NAtEe-vct8QiEaSmQ"/>
+          <ownedParameter xmi:id="_jGb8gdAtEe-vct8QiEaSmQ" name="unidadesImpresas">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_jGcjktAtEe-vct8QiEaSmQ" type="_jBqxQNAtEe-vct8QiEaSmQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_jGdKoNAtEe-vct8QiEaSmQ" name="Revista" method="_jHMxgNAtEe-vct8QiEaSmQ">
+          <eAnnotations xmi:id="_jGe_0NAtEe-vct8QiEaSmQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_jGe_0dAtEe-vct8QiEaSmQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_jGdKodAtEe-vct8QiEaSmQ" name="nombreRevista">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_jGdKotAtEe-vct8QiEaSmQ" name="numeroRevista">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_jGdKo9AtEe-vct8QiEaSmQ" name="fecha" type="_jFkZ0NAtEe-vct8QiEaSmQ"/>
+          <ownedParameter xmi:id="_jGe_0tAtEe-vct8QiEaSmQ" type="_jBqxQNAtEe-vct8QiEaSmQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_jGfm4NAtEe-vct8QiEaSmQ" name="equals" method="_jHNYkNAtEe-vct8QiEaSmQ">
+          <ownedParameter xmi:id="_jGfm4dAtEe-vct8QiEaSmQ" name="obj" type="_jGN6ENAtEe-vct8QiEaSmQ"/>
+          <ownedParameter xmi:id="_jGgN8NAtEe-vct8QiEaSmQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_jHAkQtAtEe-vct8QiEaSmQ" name="" memberEnd="_jGwFkdAtEe-vct8QiEaSmQ _jHAkQNAtEe-vct8QiEaSmQ">
+        <ownedEnd xmi:id="_jHAkQNAtEe-vct8QiEaSmQ" name="" type="_jA58QNAtEe-vct8QiEaSmQ" association="_jHAkQtAtEe-vct8QiEaSmQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jHAkQdAtEe-vct8QiEaSmQ" value="*"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_jHhhodAtEe-vct8QiEaSmQ" name="" memberEnd="_jHhhotAtEe-vct8QiEaSmQ _jG8S09AtEe-vct8QiEaSmQ">
+        <ownedEnd xmi:id="_jHhhotAtEe-vct8QiEaSmQ" name="" type="_jBqxQNAtEe-vct8QiEaSmQ" association="_jHhhodAtEe-vct8QiEaSmQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_jHu9AdAtEe-vct8QiEaSmQ" name="" memberEnd="_jHu9AtAtEe-vct8QiEaSmQ _jG9g8tAtEe-vct8QiEaSmQ">
+        <ownedEnd xmi:id="_jHu9AtAtEe-vct8QiEaSmQ" name="" type="_jBqxQNAtEe-vct8QiEaSmQ" association="_jHu9AdAtEe-vct8QiEaSmQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Zv_QENBlEe-vct8QiEaSmQ" name="" memberEnd="_jG3aUdAtEe-vct8QiEaSmQ"/>
+    </packagedElement>
+    <profileApplication xmi:id="_bJf7INAtEe-vct8QiEaSmQ">
+      <eAnnotations xmi:id="_bKEi4NAtEe-vct8QiEaSmQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+    <profileApplication xmi:id="_jA8_kNAtEe-vct8QiEaSmQ">
+      <eAnnotations xmi:id="_jA9moNAtEe-vct8QiEaSmQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_bKJbYNAtEe-vct8QiEaSmQ" base_Package="_a34msNAtEe-vct8QiEaSmQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <Persistency:Table xmi:id="_jA-0wNAtEe-vct8QiEaSmQ" tableName="articulo" base_Classifier="_jA58QNAtEe-vct8QiEaSmQ"/>
+  <Persistency:JPA1StyledElement xmi:id="_jBAC4NAtEe-vct8QiEaSmQ" base_Element="_jA58QNAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_jBDGMNAtEe-vct8QiEaSmQ" base_Element="_jBB4ENAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_jBEUUNAtEe-vct8QiEaSmQ" base_Element="_jBDtQNAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_jBGJgNAtEe-vct8QiEaSmQ" base_Element="_jBE7YNAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jBGwkdAtEe-vct8QiEaSmQ" base_Element="_jBGJgdAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jBHXoNAtEe-vct8QiEaSmQ" base_Element="_jBGJgdAtEe-vct8QiEaSmQ">
+    <annotations xmi:id="_jBHXodAtEe-vct8QiEaSmQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_jBJM0NAtEe-vct8QiEaSmQ" base_Element="_jBH-sNAtEe-vct8QiEaSmQ"/>
+  <Persistency:Table xmi:id="_jBbgsNAtEe-vct8QiEaSmQ" tableName="autor" base_Classifier="_jBOFUNAtEe-vct8QiEaSmQ"/>
+  <Persistency:JPA1StyledElement xmi:id="_jBcu0NAtEe-vct8QiEaSmQ" base_Element="_jBOFUNAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_jBekA9AtEe-vct8QiEaSmQ" base_Element="_jBd88NAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_jBfyI9AtEe-vct8QiEaSmQ" base_Element="_jBfLENAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_jBiOYNAtEe-vct8QiEaSmQ" base_Element="_jBgZMNAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jBkDkNAtEe-vct8QiEaSmQ" base_Element="_jBi1cNAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jBkqoNAtEe-vct8QiEaSmQ" base_Element="_jBi1cNAtEe-vct8QiEaSmQ">
+    <annotations xmi:id="_jBkqodAtEe-vct8QiEaSmQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jBlRsdAtEe-vct8QiEaSmQ" base_Element="_jBkqotAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jBmf0NAtEe-vct8QiEaSmQ" base_Element="_jBkqotAtEe-vct8QiEaSmQ">
+    <annotations xmi:id="_jBmf0dAtEe-vct8QiEaSmQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <Persistency:Table xmi:id="_jB2-gNAtEe-vct8QiEaSmQ" tableName="revista" base_Classifier="_jBqxQNAtEe-vct8QiEaSmQ"/>
+  <Persistency:JPA1StyledElement xmi:id="_jB4MoNAtEe-vct8QiEaSmQ" base_Element="_jBqxQNAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_jB7P8NAtEe-vct8QiEaSmQ" base_Element="_jB5awNAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_jB8eENAtEe-vct8QiEaSmQ" base_Element="_jB7P8dAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jCDLwNAtEe-vct8QiEaSmQ" base_Element="_jCB9oNAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jCDLwdAtEe-vct8QiEaSmQ" base_Element="_jCB9oNAtEe-vct8QiEaSmQ">
+    <annotations xmi:id="_jCDLwtAtEe-vct8QiEaSmQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_jDVlMNAtEe-vct8QiEaSmQ" base_Element="_jDOQcNAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:Reference xmi:id="_jDc58NAtEe-vct8QiEaSmQ" base_Element="_jDWMQNAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:Reference xmi:id="_jDqVUNAtEe-vct8QiEaSmQ" base_Element="_jDdhANAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:Reference xmi:id="_jDyRINAtEe-vct8QiEaSmQ" base_Element="_jDqVUdAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:Reference xmi:id="_jD9QQNAtEe-vct8QiEaSmQ" base_Element="_jD0GUNAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:Reference xmi:id="_jEGaMNAtEe-vct8QiEaSmQ" base_Element="_jD93UNAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:Reference xmi:id="_jESncNAtEe-vct8QiEaSmQ" base_Element="_jEGaMdAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:Reference xmi:id="_jEZVINAtEe-vct8QiEaSmQ" base_Element="_jESncdAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:Reference xmi:id="_jEgC0NAtEe-vct8QiEaSmQ" base_Element="_jEZVIdAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:Reference xmi:id="_jEnXkNAtEe-vct8QiEaSmQ" base_Element="_jEgC0dAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:Reference xmi:id="_jFPCoNAtEe-vct8QiEaSmQ" base_Element="_jEn-oNAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_jFT7INAtEe-vct8QiEaSmQ" base_Element="_jFSF8NAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:Reference xmi:id="_jFfhUNAtEe-vct8QiEaSmQ" base_Element="_jFYMkNAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_jFhWgNAtEe-vct8QiEaSmQ" base_Element="_jFgvcNAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:Reference xmi:id="_jFrukNAtEe-vct8QiEaSmQ" base_Element="_jFkZ0NAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:Reference xmi:id="_jFycQNAtEe-vct8QiEaSmQ" base_Element="_jFrukdAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:Reference xmi:id="_jF5xANAtEe-vct8QiEaSmQ" base_Element="_jFzDUNAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:Reference xmi:id="_jGCT4NAtEe-vct8QiEaSmQ" base_Element="_jF6YENAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_jGEwINAtEe-vct8QiEaSmQ" base_Element="_jGDiANAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:Reference xmi:id="_jGV14NAtEe-vct8QiEaSmQ" base_Element="_jGN6ENAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jGXEANAtEe-vct8QiEaSmQ" base_Element="_jGV14dAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jGXEAdAtEe-vct8QiEaSmQ" base_Element="_jGV14dAtEe-vct8QiEaSmQ">
+    <annotations xmi:id="_jGXEAtAtEe-vct8QiEaSmQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_jGcjk9AtEe-vct8QiEaSmQ" base_Element="_jGZgQNAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_jGe_09AtEe-vct8QiEaSmQ" base_Element="_jGdKoNAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jGg1ANAtEe-vct8QiEaSmQ" base_Element="_jGfm4NAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jGhcENAtEe-vct8QiEaSmQ" base_Element="_jGfm4NAtEe-vct8QiEaSmQ">
+    <annotations xmi:id="_jGhcEdAtEe-vct8QiEaSmQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <Persistency:PrimaryKey xmi:id="_jGsbMNAtEe-vct8QiEaSmQ" base_Property="_jGrNENAtEe-vct8QiEaSmQ"/>
+  <Persistency:GeneratedValueMapping xmi:id="_jGsbMdAtEe-vct8QiEaSmQ" base_Property="_jGrNENAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_jGu3cNAtEe-vct8QiEaSmQ" base_Element="_jGuQYNAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_jGvegNAtEe-vct8QiEaSmQ" base_Element="_jGu3cdAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_jGwFkNAtEe-vct8QiEaSmQ" base_Element="_jGvegdAtEe-vct8QiEaSmQ"/>
+  <Persistency:JoinColumns xmi:id="_jGwFktAtEe-vct8QiEaSmQ" base_Property="_jGwFkdAtEe-vct8QiEaSmQ">
+    <columns xmi:id="_ZwMrcNBlEe-vct8QiEaSmQ" label="idRevista" unique="true"/>
+  </Persistency:JoinColumns>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jGx6wNAtEe-vct8QiEaSmQ" base_Element="_jGxTsNAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jGyh0NAtEe-vct8QiEaSmQ" base_Element="_jGxTsNAtEe-vct8QiEaSmQ">
+    <annotations xmi:id="_jGyh0dAtEe-vct8QiEaSmQ" name="ManyToMany"/>
+  </UMLLabProfile:Annotations>
+  <Persistency:PrimaryKey xmi:id="_jG0XANAtEe-vct8QiEaSmQ" base_Property="_jGzv8NAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_jG2MMdAtEe-vct8QiEaSmQ" base_Element="_jG2MMNAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_jG3aUNAtEe-vct8QiEaSmQ" base_Element="_jG2zQNAtEe-vct8QiEaSmQ"/>
+  <Persistency:PrimaryKey xmi:id="_jG6doNAtEe-vct8QiEaSmQ" base_Property="_jG52kNAtEe-vct8QiEaSmQ"/>
+  <Persistency:GeneratedValueMapping xmi:id="_jG6dodAtEe-vct8QiEaSmQ" base_Property="_jG52kNAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_jG8S0NAtEe-vct8QiEaSmQ" base_Element="_jG7rwNAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_jG8S0tAtEe-vct8QiEaSmQ" base_Element="_jG8S0dAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jG854NAtEe-vct8QiEaSmQ" base_Element="_jG8S09AtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_jG9g8dAtEe-vct8QiEaSmQ" base_Element="_jG9g8NAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jG-IANAtEe-vct8QiEaSmQ" base_Element="_jG9g8tAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jG-IAdAtEe-vct8QiEaSmQ" base_Element="_jG9g8tAtEe-vct8QiEaSmQ">
+    <annotations xmi:id="_jG-vENAtEe-vct8QiEaSmQ" name="OneToMany">
+      <annotationParameters xmi:id="_jG-vEdAtEe-vct8QiEaSmQ" name="mappedBy" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_ZwPuwNBlEe-vct8QiEaSmQ" value="&quot;revista&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_jG-vEtAtEe-vct8QiEaSmQ" name="cascade" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_ZwPuwdBlEe-vct8QiEaSmQ" value="CascadeType.ALL"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_jHu9ANAtEe-vct8QiEaSmQ" base_Element="_jHhhodAtEe-vct8QiEaSmQ"/>
+  <UMLLabProfile:Reference xmi:id="_jH1qsNAtEe-vct8QiEaSmQ" base_Element="_jHu9AdAtEe-vct8QiEaSmQ"/>
+</xmi:XMI>
