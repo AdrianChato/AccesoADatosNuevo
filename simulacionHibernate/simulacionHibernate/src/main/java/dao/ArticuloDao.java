@@ -22,10 +22,8 @@ public class ArticuloDao extends AbstractDao<Articulo> {
 		setClase(Articulo.class);
 	}
 
-	/**
-	 * CONSULTA 1: Artículos de un autor por su nombre (Ordenados alfabéticamente).
-	 * El enunciado pide artículos de un autor específico ordenados por nombre[cite:
-	 * 33, 39].
+	/*
+	  CONSULTA 1: Artículos de un autor por su nombre (Ordenados alfabéticamente).
 	 */
 	public List<Articulo> getArticulosPorNombreAutor(String nombreAutor) {
 		Session sesion = HibernateUtil.getFactoriaSession().openSession();
@@ -46,10 +44,10 @@ public class ArticuloDao extends AbstractDao<Articulo> {
 		return lista;
 	}
 
-	/**
-	 * CONSULTA 2 y 3: Nombre, páginas, revista y fecha de artículos con > 6
-	 * páginas. Devuelve Object[] porque pedimos campos específicos de varias
-	 * tablas.
+	/*
+	  CONSULTA 2 y 3: Nombre, páginas, revista y fecha de artículos con > 6
+	  páginas. Devuelve Object[] porque pedimos campos específicos de varias
+	  tablas.
 	 */
 	public List<Object[]> getArticulosLargosConRevista() {
 		Session sesion = HibernateUtil.getFactoriaSession().openSession();

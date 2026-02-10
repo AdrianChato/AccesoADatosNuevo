@@ -21,9 +21,9 @@ public class RevistaDao extends AbstractDao<Revista> {
 		setClase(Revista.class);
 	}
 
-	/**
-	 * CONSULTA 4: Número de artículos que tiene cada revista. Usamos COUNT y GROUP
-	 * BY[cite: 36].
+	/*
+	  CONSULTA 4: Número de artículos que tiene cada revista. Usamos COUNT y GROUP
+	  BY.
 	 */
 	public List<Object[]> getConteoArticulosPorRevista() {
 		Session sesion = HibernateUtil.getFactoriaSession().openSession();
@@ -42,13 +42,13 @@ public class RevistaDao extends AbstractDao<Revista> {
 		return lista;
 	}
 
-	/**
-	 * CONSULTA 5: Datos de revistas (nombre, fecha, número) publicadas antes de una
-	 * fecha[cite: 35].
+	/*
+	 CONSULTA 5: Datos de revistas (nombre, fecha, número) publicadas antes de una
+	 fecha
 	 */
 	public List<Object[]> getRevistasPreviasAFecha(LocalDate fechaLimite) {
 		Session sesion = HibernateUtil.getFactoriaSession().openSession();
-		// Ejemplo en HQL para que veas la diferencia
+		// Ejemplo en HQL 
 		String hql = "SELECT r.nombreRevista, r.fecha, r.numeroRevista FROM Revista r WHERE r.fecha < :miFecha";
 
 		List<Object[]> lista = sesion.createQuery(hql, Object[].class).setParameter("miFecha", fechaLimite)
